@@ -1,6 +1,6 @@
 <?php
  
- require_once("./vendor/dompdf/autoload.inc.php");
+ require_once("vendor/autoload.php");
  
  use Dompdf\Dompdf;
 class PdfGenerator
