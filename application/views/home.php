@@ -68,7 +68,7 @@
 
 
 <main>
-<p class="sliding-text">LU MUTERI KOTA, KITA TEMENAN</p>
+<!-- <p class="sliding-text">LU MUTERI KOTA, KITA TEMENAN</p> -->
  <div class="carousel carousel-slider center" data-indicators="true">
   <div class="carousel-fixed-item center">
   </div>

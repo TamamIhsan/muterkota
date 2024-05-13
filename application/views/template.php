@@ -6,7 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="<?= base_url() . "assets/" ?>css/materialize.css">
   <link rel="stylesheet" href="<?= base_url() . "assets/" ?>css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" /> -->
+  <style>
+    .exo-2-light {
+      font-family: "Exo 2", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 300; /* You can choose the appropriate weight here */
+      font-style: normal;
+      margin-top: 100px;
+      color: yellow;
+      font-weight: bold;
+    }
+
+    .exo-2-regular {
+      font-family: "Exo 2", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400; /* You can choose the appropriate weight here */
+      font-style: normal;
+    }
+  </style>
 </head>
 
 <body>
@@ -99,7 +120,7 @@
           <h5 class="white-text">
             <img src="<?= base_url('assets/images/muni.png') ?>">
           </h5>
-          <p class="grey-text text-lighten-4">
+          <p class="exo-2-regular">
           Jalan-jalan Tanpa Batas, Nikmati Kemudahan Booking dengan MuteriKota!</p>
         </div>
         <!--               <div class="col l4 offset-l2 s12">

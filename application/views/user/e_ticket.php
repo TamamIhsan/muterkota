@@ -1,28 +1,72 @@
-                     
-<link rel="stylesheet" href="<?="assets/"?>css/materialize.css">
-<link rel="stylesheet" href="<?="assets/"?>css/style.css">
-<style type="text/css">
-body{
-  background-color: #fff;
-  color: black !important;
-}
-.head-ticket{
-  border-bottom: solid 2px black;
-  padding-bottom: 10px;
-}
-.light{
-  font-weight: 300;
-}
-</style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="<?="assets/"?>css/materialize.css">
+    <link rel="stylesheet" href="<?="assets/"?>css/style.css">
+    <style type="text/css">
+        body {
+            background-color: #fff;
+
+        }
+
+        .head-ticket {
+            border-bottom: solid 2px black;
+            padding-bottom: 10px;
+        }
+
+        .light {
+            font-weight: 300;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 50px; /* Adjust as needed */
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .heading-center {
+            text-align: center;
+        }
+
+        .exo-2-light {
+            font-family: "Exo 2", sans-serif;
+            font-weight: 300;
+            color: yellow;
+            font-weight: bold;
+        }
+
+        .exo-2-regular {
+            font-family: "Exo 2", sans-serif;
+            font-weight: 400;
+        }
+    </style>
+    </head>
+    <body>
 <div>
   <div class="head-ticket">
    <center>
-     <img style="width: 300px" src="assets/images/logo.png">
+     <!-- <img style="width: 300px" src="assets/images/muni.png"> -->
    </center>
- </div>
- <center><b style="font-size: 20px">E - TIKET</b></center>
- <div>
-  <table style="margin-top: -40px">
+   <div class="heading-center">
+                <h1 class="exo-2-light">MUTERTIKET</h1>
+            </div>
+  <table style="">
     <tbody>
       <tr>
        <td width="30%"></td>
@@ -56,7 +100,7 @@ body{
     <table class="detail">
       <tr>
         <td>
-          <img style="width: 60px" src="<?="assets/images/company_logo/".$i[0]->company_logo?>"></td>
+          <!-- <img style="width: 60px" src="<?="assets/images/company_logo/".$i[0]->company_logo?>"></td> -->
           <td><?=$i[0]->company_name?><br><span class="light"><?=$i[0]->class_name?></span>
           </td>
           <td style="text-align:center">
@@ -109,3 +153,5 @@ body{
       </div>
 
     </div>
+    </body>
+</html>

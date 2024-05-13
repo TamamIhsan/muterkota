@@ -21,7 +21,7 @@
 
         <ul class="right hide-on-med-and-down">
           <li> <a class='light dropdown-button btn blue' href='#' data-activates='dropdown1'>
-              <i class="material-icons inline-text">account_circle</i> Administrator</a>
+              <i class="material-icons inline-text">account_circle</i> ADMIN</a>
             <ul id='dropdown1' class='dropdown-content'>
               <li><a href="#!">Pengaturan Akun</a></li>
               <li><a href="<?= base_url('admin/logout') ?>">Keluar</a></li>
@@ -37,7 +37,7 @@
               <div class="background blue">
               </div>
               <a href="#!user"><img class="circle" src="<?= base_url() . "assets/" ?>images/user-white.png"></a>
-              <a href="#!name" style="padding-bottom: 20px;"><span class="white-text name">Administrator</span></a>
+              <a href="#!name" style="padding-bottom: 20px;"><span class="white-text name">ADMIN</span></a>
             </div>
           </li>
           <li><a href="<?= site_url('admin/dashboard') ?>"><i class="material-icons">dashboard</i>Dasbor</a></li>

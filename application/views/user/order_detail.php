@@ -23,10 +23,10 @@
             </div>
             <div class="row">    
               <?php if($o->status=='Terbayar'){ ?>             
-              <a target="blank" href="<?=site_url('user/e_ticket/'.$o->id_order.'')?>" class="btn blue"><i class="material-icons inline-text">print</i> CETAK E-TIKET</a> 
+              <a target="blank" href="<?=site_url('user/e_ticket/'.$o->id_order.'')?>" class="btn blue"><i class="material-icons inline-text">print</i> CETAK TIKET</a> 
               <?php }else{
                 ?>         
-                <a class="btn blue disabled"><i class="material-icons inline-text">print</i> CETAK E-TIKET</a> 
+                <a class="btn blue disabled"><i class="material-icons inline-text">print</i> CETAK TIKET</a> 
                 <?php
               } ?>
 
